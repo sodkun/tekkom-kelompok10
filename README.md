@@ -12,6 +12,7 @@ Cara menggunakan Bahasa javanglish adalah dengan menggunakan perintah "python sh
 Ketika perintah dibac, interpreter dikatakan dalam mode interaktif. Dalam mode ini ia meminta perintah berikutnya dengan prompt utama, ditandai dengan javanglish tanda lebih besar (javanglish > ).
 
 $ python shell.py
+
 javanglish >
 
 sebagai contoh untuk mencetak "Hello world" pada javanglish sebagai berikut:
