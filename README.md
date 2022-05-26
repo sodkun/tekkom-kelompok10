@@ -12,7 +12,7 @@ Javanglish merupakan bahasa pemrograman baru modifikasi dari bahasa Python, meng
 
 # Peringatan
 
-Proyek ini hanya untuk bersenang-senang, saya tidak ingin menyakiti siapa pun. Hanya dari ide "bagaimana jika bahasa jawa adalah bahasa pemrograman" dan membuatnya menjadi kenyataan. Proyek ini hanya untuk tujuan pendidikan, bukan untuk produksi siap dan terinspirasi dari **Jaksel Script**.
+Proyek ini hanya untuk bersenang-senang dan tidak ingin menyakiti siapa pun. Hanya dari ide "bagaimana jika bahasa jawa adalah bahasa pemrograman" dan membuatnya menjadi kenyataan. Proyek ini hanya untuk tujuan pendidikan, bukan untuk produksi siap dan terinspirasi dari **Jaksel Script**.
 
 # Menggunakan Bahasa javanglish
 
@@ -134,7 +134,7 @@ javanglish > KANGGO i = 5 NGANTI 1 NJANGKAH -1 DADI i _ 1
 > - DADI = then
 > - NJANGKAH = step
 
-## Perulangan Hhile
+## Perulangan While
 
 Penulisan statements while pada javanglish adalah sebagai berikut:
 ```ruby
@@ -283,9 +283,46 @@ javanglish > COBA("test.jvl")
 Hello World
 Ini adalah bahasa javanglish
 ```
-## membersihkan terminal
+## Membersihkan terminal
 Perintah untuk membersihkan terminal pada javanglish ada dua cara, **HAPUS()** dan **HPS()**
 ```ruby
 javanglish > HAPUS()
 javanglish > HPS()
+```
+## Eror
+jenis  eror pada javanglish:
+### Illegal Character Error
+```ruby
+javanglish > 1 : 2
+Watak Ilegal: ':'   
+File <stdin>, line 1
+
+1 : 2
+  ^
+```
+### Expected Character Error dan Invalid Syntax Error
+```ruby
+javanglish > AKHIR 1
+Syntax ora sah: Dikarepake 'BALIK', 'LANJUT', 'MANDEK', 'MISAL', 'YEN', 'KANGGO', 'NALIKA', 'MIGUNANI', int, float, identifier, '+', '-', '(', '[' utawa 'DUDU'
+File <stdin>, line 1
+
+AKHIR 1
+^^^^^
+```
+### Run Time Error
+```ruby
+javanglish > [1, s, 5]
+Traceback (paling anyar call terakhir):
+  File <stdin>, line 1, in <program>
+Kesalahan Runtime: 's' is not defined
+
+[1, s, 5]
+    ^
+javanglish > [1, saya, 5]
+Traceback (paling anyar call terakhir):
+  File <stdin>, line 1, in <program>
+Kesalahan Runtime: 'saya' is not defined
+
+[1, saya, 5]
+    ^^^^
 ```
