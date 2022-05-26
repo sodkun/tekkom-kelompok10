@@ -1,4 +1,4 @@
-# Teknik Komputasi kelompok 10
+# Teknik Kompilasi kelompok 10
 
 Achmat Sodikkun
 
