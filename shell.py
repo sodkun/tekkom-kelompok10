@@ -1,4 +1,4 @@
-import Basic
+import basic
 
 while True:
 	text = input('javanglish > ')
