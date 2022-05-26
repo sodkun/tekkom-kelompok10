@@ -318,11 +318,10 @@ Kesalahan Runtime: 's' is not defined
 
 [1, s, 5]
     ^
-javanglish > [1, saya, 5]
+javanglish > 1/0
 Traceback (paling anyar call terakhir):
   File <stdin>, line 1, in <program>
-Kesalahan Runtime: 'saya' is not defined
+Kesalahan Runtime: Dibagi dening nul
 
-[1, saya, 5]
-    ^^^^
-```
+1/0
+  ^
