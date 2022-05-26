@@ -6,12 +6,18 @@ Ahmad Syafi'i
 
 M. Hafidz Amanullah Abyan
 
-# Bahasa Javanglish (Jawa + English)
+# Bahasa Javanglish
+
+Javanglish merupakan bahasa pemrograman baru modifikasi dari bahasa Python, menggunakan bahasa Jawa, Indonesia, dan Inggris sebagai perintahnya.
+
+# Peringatan
+
+Proyek ini hanya untuk bersenang-senang, saya tidak ingin menyakiti siapa pun. Hanya dari ide "bagaimana jika bahasa jaksel adalah bahasa pemrograman" dan membuatnya menjadi kenyataan. Proyek ini hanya untuk tujuan pendidikan, bukan untuk produksi siap.
 
 # Menggunakan Bahasa javanglish
 
-Cara menggunakan Bahasa javanglish adalah dengan menggunakan perintah "python shell.py" pada terminal atau langsung menjalankan file "shell.py",
-Ketika perintah dibac, interpreter dikatakan dalam mode interaktif. Dalam mode ini ia meminta perintah berikutnya dengan prompt utama, ditandai dengan javanglish tanda lebih besar (javanglish > ).
+Cara menggunakan Bahasa javanglish adalah dengan menggunakan perintah **"python shell.py"** pada terminal atau langsung menjalankan file **"shell.py"**,
+Ketika perintah dibaca, interpreter dikatakan dalam mode interaktif. Dalam mode ini ia meminta perintah berikutnya dengan prompt utama, ditandai dengan javanglish tanda lebih besar (javanglish > ).
 ```ruby
 $ python shell.py
 javanglish >
@@ -23,7 +29,7 @@ Hello world
 ```
 # Perintah dasar javanglish
 
-Beberapa perintah javanglish sederhana. Jalankan interpreter dan tunggu prompt utama, javanglish >. (Seharusnya tidak butuh waktu lama.)
+Beberapa perintah javanglish sederhana. Jalankan interpreter dan tunggu prompt utama, **javanglish >**. (Seharusnya tidak butuh waktu lama.)
 
 ## Angka
 
@@ -53,7 +59,7 @@ javanglish > 2 ^ 7
 
 ## Variabel
 
-Pendefinisian variabel pada javanglish diawali dengan perintah "MISAL" atau pada bahasa pemrograman lain dikenal sebagai "var" atau "let" lalu diikuti dengan nama variabel lalu tanda sama dengan (=) digunakan untuk memberikan nilai pada variabel. Setelah itu, hasil ditampilkan sebelum prompt interaktif berikutnya:
+Pendefinisian variabel pada javanglish diawali dengan perintah **MISAL** atau pada bahasa pemrograman lain dikenal sebagai **"var"** atau **"let"** lalu diikuti dengan nama variabel lalu tanda sama dengan (=) digunakan untuk memberikan nilai pada variabel. Setelah itu, hasil ditampilkan sebelum prompt interaktif berikutnya:
 ```ruby
 javanglish > width = 20
 20
@@ -78,7 +84,7 @@ javanglish > 4 \* 3.75 - 1
 ```
 ## String
 
-Selain angka dan variabel, javanglish juga dapat memanipulasi string, yang dapat diekspresikan dalam beberapa cara. Mereka dapat diapit dalam tanda kutip ganda ("...") dengan hasil yang sama. \ dapat digunakan untuk menghindari tanda kutip:
+Selain angka dan variabel, javanglish juga dapat memanipulasi string, yang dapat diekspresikan dalam beberapa cara. Mereka dapat diapit dalam tanda kutip ganda **("...")** dengan hasil yang sama. \ dapat digunakan untuk menghindari tanda kutip:
 ```ruby
 javanglish > "Aku"
 "Aku"
@@ -92,7 +98,7 @@ javanglish > "aku" + "kamu"
 javanglish > "iloveyou" \* 3  
 "iloveyouiloveyouiloveyou"
 ```
-## percabangan if
+## Percabangan If
 
 Penulisan statements if, if-else, if-elif-else pada javanglish adalah sebagai berikut:
 ```ruby
@@ -111,7 +117,7 @@ javanglish > YEN a == 6 DADI 123 YENLIYANE a == 5 DADI 456 LIYANE 789
 > - LIYANE = else
 > - YENLIYANE = elif
 
-## perulangan for
+## Perulangan For
 
 Penulisan statements for pada javanglish adalah sebagai berikut:
 ```ruby
@@ -128,7 +134,7 @@ javanglish > KANGGO i = 5 NGANTI 1 NJANGKAH -1 DADI i _ 1
 > - DADI = then
 > - NJANGKAH = step
 
-## perulangan while
+## Perulangan Hhile
 
 Penulisan statements while pada javanglish adalah sebagai berikut:
 ```ruby
@@ -141,7 +147,7 @@ javanglish > NALIKA i < 5 DADI MISAL i = i + 1
 
 ## Function
 
-Penulisan function pada javanglish diawali dengan "MIGUNANI" atau sama dengan perintah "function" adalah sebagai berikut:
+Penulisan function pada javanglish diawali dengan **MIGUNANI** atau sama dengan perintah **function** adalah sebagai berikut:
 ```ruby
 javanglish > MIGUNANI tambah(a, b) -> a + b
 <function tambah>
@@ -157,9 +163,9 @@ Kesalahan Runtime: 1 kakehan args liwati menyang <function tambah>
 tambah(2, 4, 6)
 ^^^^^^^^^^^^^^
 ```
-## list
+## List
 
-Penulisan list pada javanglish menggunakan perintah "[]" sebagai berikut:
+Penulisan list pada javanglish menggunakan perintah **[]** sebagai berikut:
 ```ruby
 javanglish > []
 []
@@ -182,7 +188,7 @@ Kesalahan Runtime: Unsur ing indeks iki oga bisa dijupuk saka list amarga indeks
 javanglish > KANGGO i = 1 NGANTI 9 DADI 2 ^ i
 [2, 4, 8, 16, 32, 64, 128, 256]
 ```
-## append, pop dan extend
+## Append, Pop dan Extend
 
 Penulisan append, pop dan extend pada javanglish adalah sebagai berikut:
 ```ruby
@@ -206,9 +212,9 @@ javanglish > list
 > - POP = mengambil item pada list sesuai posisi.
 > - EXTEND = menambah list dengan append semua list item.
 
-##  Input dan print
+##  Input dan Print
 
-Penulisan input pada javanglish menggunakan perintah "MASUKNA()" untuk tipe data string dan "MASUKNA_INT()" untuk tipe data iteger:
+Penulisan input pada javanglish menggunakan perintah **MASUKNA()** untuk tipe data string dan **MASUKNA_INT()** untuk tipe data iteger:
 ```ruby
 javanglish > MISAL nama = MASUKNA()
 sayang
@@ -223,22 +229,63 @@ aku
 javanglish > umur
 19
 ```
-Penulis print pada javanglish menggunakan perintah "TULIS()" sebagai berikut:
+Penulis print pada javanglish menggunakan perintah **TULIS()** sebagai berikut:
 ```ruby
 javanglish > TULIS("HELLO WORlD")
 HELLO WORlD
 ```
-
-## return, break dan continue
-
-Penulisan return, break, continue pada javanglish adalah sebagai berikut:
-
-javanglish > NALIKA i < 5 DADI MISAL i = i + 1
-[3, 4, 5]
-
+## Penulisan Multiline
+Penulisan multiline pada javanglish ditandai dengan perintah **;** untuk mengganti baris, sebagai contoh:
+```ruby
+javanglish > 1 + 2; 3 + 4
+[3, 7] 
+```
+### Penulisan pada percabangan if
+contoh single line:
+```ruby
+javanglish > MISAL nilai = YEN 7 == 7 DADI "lolos" LIYANE "gagal"
+"lolos"
+javanglish > nilai
+"lolos"
+```
+contoh multi line:
+```ruby
+javanglish > YEN 7 == 7 DADI; TULIS("lolos"); TULIS("selamat") 
+LIYANE TULIS("gagal")
+lolos
+selamat
+```
+## Return, Break dan Continue
+Penulisan return pada javanglish menggunakan perintah **BALIK** sebagai berikut:
+```ruby
+javanglish > MIGUNANI contoh(); MISAL absen = 5; BALIK absen; AKHIR
+<function contoh>
+javanglish > contoh()
+5
+```
+Penulisan continue pada javanglish menggunakan perintah **LANJUT** dan break menggunakan perintah **MANDEK** sebagai berikut:
+```ruby
+javanglish > MISAL a = []
+[]
+javanglish > KANGGO i = 0 NGANTI 10 DADI; YEN i == 4 DADI LANJUT YENLIYANE i == 8 DADI MANDEK; MISAL a = a + i; AKHIR
+javanglish > a
+[0, 1, 2, 3, 5, 6, 7]
+```
 > note:
 > - BALIK = return
 > - LANJUT = continue
 > - MANDEK = break
 
+## Menjalankan file javanglish
+Ekstensi file javanglish adalah **.jvl** untuk menjalankannya menggunakan perintah **COBA("")** diikuti dengan nama file, sudah disediakan file dengan ekstensi **.jvl** dengan nama **test**:
+```ruby
+javanglish > COBA("test.jvl")
+Hello World
+Ini adalah bahasa javanglish
+```
 ## membersihkan terminal
+Perintah untuk membersihkan terminal pada javanglish ada dua cara, **HAPUS()** dan **HPS()**
+```ruby
+javanglish > HAPUS()
+javanglish > HPS()
+```
