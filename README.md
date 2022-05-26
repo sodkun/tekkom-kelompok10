@@ -12,7 +12,7 @@ Javanglish merupakan bahasa pemrograman baru modifikasi dari bahasa Python, meng
 
 # Peringatan
 
-Proyek ini hanya untuk bersenang-senang, saya tidak ingin menyakiti siapa pun. Hanya dari ide "bagaimana jika bahasa jaksel adalah bahasa pemrograman" dan membuatnya menjadi kenyataan. Proyek ini hanya untuk tujuan pendidikan, bukan untuk produksi siap.
+Proyek ini hanya untuk bersenang-senang, saya tidak ingin menyakiti siapa pun. Hanya dari ide "bagaimana jika bahasa jawa adalah bahasa pemrograman" dan membuatnya menjadi kenyataan. Proyek ini hanya untuk tujuan pendidikan, bukan untuk produksi siap dan terinspirasi dari **Jaksel Script**.
 
 # Menggunakan Bahasa javanglish
 
