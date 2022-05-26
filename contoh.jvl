@@ -1,0 +1,31 @@
+# This is a very useful piece of software
+
+MIGUNANI oopify(prefix) -> prefix + "oop"
+
+MIGUNANI join(elements, separator)
+	MISAL result = ""
+	MISAL len = LEN(elements)
+
+	KANGGO i = 0 NGANTI len DADI
+		MISAL result = result + elements/i
+		YEN i != len - 1 DADI MISAL result = result + separator
+	AKHIR
+
+	BALIK result
+AKHIR
+
+MIGUNANI map(elements, func)
+	MISAL new_elements = []
+
+	KANGGO i = 0 NGANTI LEN(elements) DADI
+		APPEND(new_elements, func(elements/i))
+	AKHIR
+
+	BALIK new_elements
+AKHIR
+
+TULIS("Greetings universe!")
+
+KANGGO i = 0 NGANTI 5 DADI
+	TULIS(join(map(["l", "sp"], oopify), ", "))
+AKHIR
